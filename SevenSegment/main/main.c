@@ -4,6 +4,7 @@
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "freertos/queue.h"
 #include "driver/gpio.h"
 
 #define NUM_MAX 9
@@ -17,20 +18,6 @@
 #define PIN_SWITCH GPIO_NUM_13
 #define PIN_LED GPIO_NUM_2
 
-/*
-#define SS_ZERO     0b0111111
-#define SS_ONE      0b0000110
-#define SS_TWO      0b1011011
-#define SS_THREE    0b1001111
-#define SS_FOUR     0b1100110
-#define SS_FIVE     0b1101101
-#define SS_SIX      0b1011111
-#define SS_SEVEN    0b0000111
-#define SS_EIGHT    0b1111111
-#define SS_NINE     0b1101111
-#define SS_BAD      0
-*/
-
 #define SS_ZERO     0b1000000
 #define SS_ONE      0b1111001
 #define SS_TWO      0b0100100
@@ -43,15 +30,20 @@
 #define SS_NINE     0b0010000
 #define SS_BAD      0b1111111
 
-int mode = 0;
+int num = 0;
+QueueHandle_t interruptQueue;
 
 static void IRAM_ATTR gpio_interrupt_handler(void *args){
-    if ((mode >= 0) && (mode < 9))
-        mode += 1;
-    else if (mode >= 9)
-        mode = 0;
-    else if (mode < 0)
-        mode = 0; 
+    int pinNumber = (int)args;
+
+    if ((num >= 0) && (num < 9))
+        num += 1;
+    else if (num >= 9)
+        num = 0;
+    else if (num < 0)
+        num = 0; 
+
+    xQueueSendFromISR( interruptQueue, &pinNumber, NULL );
 }
 
 /* See if bit position of provided number is a 1 or 0 and return value */
@@ -73,7 +65,7 @@ void sevenSegmentDisplay(int numCode){
 /* Function for displaying numbers on 7-segment display */
 void displayNum () {
    
-    switch (mode)
+    switch (num)
     {
     case 0 : /* display a 0*/
         sevenSegmentDisplay(SS_ZERO);
@@ -114,7 +106,7 @@ void displayNum () {
 
 void app_main(void)
 {
-    /* Set output modes */
+    /* Set output nums */
     gpio_set_direction(SEG_A, GPIO_MODE_OUTPUT);
     gpio_set_direction(SEG_B, GPIO_MODE_OUTPUT);
     gpio_set_direction(SEG_C, GPIO_MODE_OUTPUT);
@@ -134,20 +126,36 @@ void app_main(void)
     gpio_install_isr_service(0);
     gpio_isr_handler_add(PIN_SWITCH, gpio_interrupt_handler, (void *)PIN_SWITCH);
 
+    /* Create queue for interrupts */
+    interruptQueue = xQueueCreate(10, sizeof(int));
+
+    // initialize 7-segment display to 0
+    displayNum();
+
     /* main app */
     while(true) {
-         
-        displayNum();
-        
-//        if ((mode >= 0) && (mode < 9))
-//            mode += 1;
-//        else if (mode >= 9)
-//            mode = 0;
-//        else if (mode < 0)
-//            mode = 0;     
+        int pinNumber;
+
+        /* Interrupt recieved - update display */
+        if (xQueueReceive(interruptQueue, &pinNumber, portMAX_DELAY)) {
+            // disable the interrupt
+            gpio_isr_handler_remove(pinNumber);
+
+            // wait some time while we check for the button to be released
+            do
+            {
+                vTaskDelay(30 / portTICK_PERIOD_MS);
+            } while (gpio_get_level(pinNumber) == 1);
+
+            // display the number on 7-segment
+            displayNum();
+
+            // re-enable the interrupt
+            gpio_isr_handler_add(pinNumber, gpio_interrupt_handler, (void *)pinNumber);
+        }      
 
         /* TaskDelay */
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(1);
     }
 
 }
