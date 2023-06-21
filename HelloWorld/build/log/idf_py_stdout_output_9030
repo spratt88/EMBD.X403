@@ -1,0 +1,21 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/spratt/EMBD.X403/esp/projects/HelloWorld/build/bootloader/esp-idf/esptool_py && /home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/spratt/EMBD.X403/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/spratt/EMBD.X403/esp/projects/HelloWorld/build/bootloader/bootloader.bin
+Bootloader binary size 0x5200 bytes. 0x2e00 bytes (36%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/blink_example_main.c.obj
+/home/spratt/EMBD.X403/esp/projects/HelloWorld/main/blink_example_main.c:44:13: warning: 'configure_led' defined but not used [-Wunused-function]
+   44 | static void configure_led(void)
+      |             ^~~~~~~~~~~~~
+/home/spratt/EMBD.X403/esp/projects/HelloWorld/main/blink_example_main.c:30:13: warning: 'blink_led' defined but not used [-Wunused-function]
+   30 | static void blink_led(void)
+      |             ^~~~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable HelloWorld.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated /home/spratt/EMBD.X403/esp/projects/HelloWorld/build/HelloWorld.bin
+[7/7] cd /home/spratt/EMBD.X403/esp/projects/HelloWorld/build/esp-idf/esptool_py && /home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/spratt/EMBD.X403/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/spratt/EMBD.X403/esp/projects/HelloWorld/build/partition_table/partition-table.bin /home/spratt/EMBD.X403/esp/projects/HelloWorld/build/HelloWorld.bin
+HelloWorld.bin binary size 0x31530 bytes. Smallest app partition is 0x100000 bytes. 0xcead0 bytes (81%) free.
