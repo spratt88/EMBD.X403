@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/projects/SevenSegment/main
+# Install script for directory: /home/spratt/esp/projects/SevenSegment/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

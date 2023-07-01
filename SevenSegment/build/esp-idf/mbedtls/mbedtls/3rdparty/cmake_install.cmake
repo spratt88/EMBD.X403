@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/esp-idf/components/mbedtls/mbedtls/3rdparty
+# Install script for directory: /home/spratt/esp/esp-idf/components/mbedtls/mbedtls/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/esp-idf/components/ulp
+# Install script for directory: /home/spratt/esp/esp-idf/components/ulp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

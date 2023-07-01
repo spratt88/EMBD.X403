@@ -1,4 +1,4 @@
-/* * Data converted from /home/spratt/EMBD.X403/esp/projects/SevenSegment/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/spratt/esp/projects/SevenSegment/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

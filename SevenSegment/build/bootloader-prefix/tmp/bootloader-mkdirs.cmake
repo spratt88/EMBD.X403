@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/spratt/EMBD.X403/esp/esp-idf/components/bootloader/subproject"
-  "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader"
-  "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix"
-  "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix/tmp"
-  "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix/src"
-  "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/spratt/esp/esp-idf/components/bootloader/subproject"
+  "/home/spratt/esp/projects/SevenSegment/build/bootloader"
+  "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix"
+  "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix/tmp"
+  "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix/src"
+  "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/spratt/esp/projects/SevenSegment/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

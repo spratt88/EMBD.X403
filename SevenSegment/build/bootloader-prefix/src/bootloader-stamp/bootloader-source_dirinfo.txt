@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/spratt/EMBD.X403/esp/esp-idf/components/bootloader/subproject
+source_dir=/home/spratt/esp/esp-idf/components/bootloader/subproject
 work_dir=
 

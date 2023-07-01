@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/esp-idf/components/http_parser
+# Install script for directory: /home/spratt/esp/esp-idf/components/http_parser
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

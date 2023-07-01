@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.19.0-45-generic")
+set(CMAKE_HOST_SYSTEM "Linux-5.19.0-46-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.19.0-45-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "5.19.0-46-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/spratt/EMBD.X403/esp/esp-idf/tools/cmake/toolchain-esp32s3.cmake")
+include("/home/spratt/esp/esp-idf/tools/cmake/toolchain-esp32s3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

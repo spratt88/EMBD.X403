@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/esp-idf/components/esp_system/port/soc/esp32s3
+# Install script for directory: /home/spratt/esp/esp-idf/components/esp_system/port/soc/esp32s3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

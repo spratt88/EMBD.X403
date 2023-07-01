@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/esp-idf/components/esp_partition
+# Install script for directory: /home/spratt/esp/esp-idf/components/esp_partition
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

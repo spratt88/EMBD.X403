@@ -1,4 +1,4 @@
-# Install script for directory: /home/spratt/EMBD.X403/esp/esp-idf/components/esp_hw_support
+# Install script for directory: /home/spratt/esp/esp-idf/components/esp_hw_support
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/spratt/EMBD.X403/esp/projects/SevenSegment/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
+  include("/home/spratt/esp/projects/SevenSegment/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
 endif()
 
