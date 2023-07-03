@@ -1,0 +1,67 @@
+ (333) example: Failed to find SPIFFS partition[0m
+[0;32mI (343) main_task: Returned from app_main()[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xb (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4037898e
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3820,len:0x1718
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xc08
+load:0x403cc700,len:0x2f08
+entry 0x403c990c
+[0;32mI (27) boot: ESP-IDF v5.2-dev-1244-g67552c31da 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jun 28 2023 21:04:53[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v0.1[0m
+[0;32mI (35) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (40) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (45) boot.esp32s3: SPI Flash Size : 2MB[0m
+[0;32mI (50) boot: Enabling RNG early entropy source...[0m
+[0;32mI (55) boot: Partition Table:[0m
+[0;32mI (59) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (81) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (88) boot: End of partition table[0m
+[0;32mI (92) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0ae80h ( 44672) map[0m
+[0;32mI (109) esp_image: segment 1: paddr=0001aea8 vaddr=3fc91e00 size=028e0h ( 10464) load[0m
+[0;32mI (112) esp_image: segment 2: paddr=0001d790 vaddr=40374000 size=02888h ( 10376) load[0m
+[0;32mI (120) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1dcf8h (122104) map[0m
+[0;32mI (148) esp_image: segment 4: paddr=0003dd20 vaddr=40376888 size=0b530h ( 46384) load[0m
+[0;32mI (165) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (165) boot: Disabling RNG early entropy source...[0m
+[0;32mI (176) cpu_start: Multicore app[0m
+[0;32mI (176) cpu_start: Pro cpu up.[0m
+[0;32mI (176) cpu_start: Starting app cpu, entry point is 0x403751f0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (195) cpu_start: Pro cpu start user code[0m
+[0;32mI (195) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (195) cpu_start: Application information:[0m
+[0;32mI (198) cpu_start: Project name:     chip_data[0m
+[0;32mI (203) cpu_start: App version:      d884187-dirty[0m
+[0;32mI (208) cpu_start: Compile time:     Jun 28 2023 21:04:48[0m
+[0;32mI (214) cpu_start: ELF file SHA256:  ca4eaaedd...[0m
+[0;32mI (220) cpu_start: ESP-IDF:          v5.2-dev-1244-g67552c31da[0m
+[0;32mI (226) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (231) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (236) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (241) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (248) heap_init: At 3FC94F58 len 000547B8 (337 KiB): DRAM[0m
+[0;32mI (254) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (261) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (267) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM[0m
+[0;32mI (274) spi_flash: detected chip: gd[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;33mW (281) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (295) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (301) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (309) app_start: Starting scheduler on CPU0[0m
+[0;32mI (313) app_start: Starting scheduler on CPU1[0m
+[0;32mI (313) main_task: Started on CPU0[0m
+[0;32mI (323) main_task: Calling app_main()[0m
+[0;32mI (323) example: Initializing SPIFFS[0m
+[0;31mE (333) SPIFFS: spiffs partition could not be found[0m
+[0;31mE (333) example: Failed to find SPIFFS partition[0m
+[0;32mI (343) main_task: Returned from app_main()[0m
