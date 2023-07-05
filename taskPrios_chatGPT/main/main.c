@@ -1,8 +1,3 @@
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include "esp_log.h"
-//#include "sdkconfig.h"
-
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -15,7 +10,7 @@
 #define UART_NUM UART_NUM_1
 #define UART_RX_PIN GPIO_NUM_4
 #define UART_TX_PIN GPIO_NUM_5
-#define LED_PIN GPIO_NUM_19
+#define LED_PIN GPIO_NUM_47
 
 // Task handles
 TaskHandle_t task1Handle, task2Handle, task3Handle, task4Handle;
@@ -70,17 +65,12 @@ void task2(void *pvParameters) {
 void task3(void *pvParameters) {
     uint8_t data[1024];
     int length = 0;
-    int ledOn = 0;
     
     // Wait until UART reads a character
-    //while (uart_read_bytes(UART_NUM, &data, 1, portMAX_DELAY) <= 0) {
     while (1) {
-        //uart_get_buffered_data_len(UART_NUM, (size_t*)&length);
         length = uart_read_bytes(UART_NUM, data, 10, pdMS_TO_TICKS(100));
 
         if (length > 0) {
-            //uart_flush(UART_NUM);
-
             // Print message indicating Task 3 is running
             printf("\t\tTsk3-P3 <-\n");
 
@@ -89,11 +79,9 @@ void task3(void *pvParameters) {
 
             // Toggle LED if 'L' or 'l' is pressed
             if (data[0] == 'L' || data[0] == 'l') {
-                ledOn = 1;  
-            } else {
-                ledOn = 0;
-            }
-           gpio_set_level(LED_PIN, ledOn);
+                ledState = !ledState;  
+                gpio_set_level(LED_PIN, ledState);
+            } 
 
             // Run for about 50 times with a task delay of 1
             for (int i = 0; i < 50; i++) {
@@ -167,11 +155,9 @@ void app_main() {
     uart_driver_install(UART_NUM, 1024, 0, 0, NULL, 0);
 
     // Configure LED pin
-    //gpio_pad_select_gpio(LED_PIN);
     gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
 
     // Configure user switch pin
-    //gpio_pad_select_gpio(USER_SWITCH_PIN);
     gpio_set_direction(USER_SWITCH_PIN, GPIO_MODE_INPUT);
     gpio_set_pull_mode(USER_SWITCH_PIN, GPIO_PULLDOWN_ONLY);
     gpio_set_intr_type(USER_SWITCH_PIN, GPIO_INTR_POSEDGE);
