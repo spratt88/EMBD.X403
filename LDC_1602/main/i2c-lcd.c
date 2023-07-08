@@ -6,7 +6,7 @@
 #include "driver/i2c.h"
 #include "unistd.h"
 
-#define SLAVE_ADDRESS_LCD 0x27>>1 // change this according to ur setup
+#define SLAVE_ADDRESS_LCD 0x3F // change this according to ur setup
 
 esp_err_t err;
 

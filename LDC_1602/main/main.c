@@ -23,8 +23,8 @@
 
 static const char *TAG = "i2c-simple-example";
 
-#define I2C_MASTER_SCL_IO           CONFIG_I2C_MASTER_SCL             /*!< GPIO number used for I2C master clock */
-#define I2C_MASTER_SDA_IO           CONFIG_I2C_MASTER_SDA             /*!< GPIO number used for I2C master data  */
+#define I2C_MASTER_SCL_IO           GPIO_NUM_19             /*!< GPIO number used for I2C master clock */
+#define I2C_MASTER_SDA_IO           GPIO_NUM_20             /*!< GPIO number used for I2C master data  */
 #define I2C_MASTER_NUM              I2C_NUM_0                   /*!< I2C master i2c port number, the number of i2c peripheral interfaces available will depend on the chip */
 #define I2C_MASTER_FREQ_HZ          100000                      /*!< I2C master clock frequency */
 #define I2C_MASTER_TX_BUF_DISABLE   0                           /*!< I2C master doesn't need buffer */
@@ -69,10 +69,10 @@ void app_main(void)
     //lcd_send_string(buffer);
 
     lcd_put_cur(0, 0);
-    lcd_send_string("Hello World!");
+    lcd_send_string("FRIG YOU!");
 
     lcd_put_cur(1, 0);
-    lcd_send_string("from ESP32");
+    lcd_send_string("NATALIE");
 
 
     //ESP_ERROR_CHECK(i2c_driver_delete(I2C_MASTER_NUM));
