@@ -69,10 +69,10 @@ void app_main(void)
     //lcd_send_string(buffer);
 
     lcd_put_cur(0, 0);
-    lcd_send_string("FRIG YOU!");
+    lcd_send_string("Hello World!");
 
     lcd_put_cur(1, 0);
-    lcd_send_string("NATALIE");
+    lcd_send_string("EMBD.X403");
 
 
     //ESP_ERROR_CHECK(i2c_driver_delete(I2C_MASTER_NUM));
