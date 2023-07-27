@@ -1,0 +1,280 @@
+[1/7] cd /home/spratt/esp/projects/wifi_config/build/esp-idf/esptool_py && /home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/spratt/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/spratt/esp/projects/wifi_config/build/partition_table/partition-table.bin /home/spratt/esp/projects/wifi_config/build/WifiConfig.bin
+WifiConfig.bin binary size 0xf0eb0 bytes. Smallest app partition is 0x200000 bytes. 0x10f150 bytes (53%) free.
+[2/7] Performing build step for 'bootloader'
+[1/1] cd /home/spratt/esp/projects/wifi_config/build/bootloader/esp-idf/esptool_py && /home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/spratt/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/spratt/esp/projects/wifi_config/build/bootloader/bootloader.bin
+Bootloader binary size 0x5990 bytes. 0x2670 bytes (30%) free.
+[3/5] Running utility command for app
+
+> my-app@0.0.1 build
+> vite build
+
+
+vite v4.4.4 building SSR bundle for production...
+transforming...
+
+🌼 daisyUI components 2.51.5  https://daisyui.com
+  ✔︎ Including:  base, components, 29 themes, utilities
+  ❤︎ Support daisyUI:  https://opencollective.com/daisyui 
+  
+
+🌼 daisyUI components 2.51.5  https://daisyui.com
+  ✔︎ Including:  base, components, 29 themes, utilities
+  ❤︎ Support daisyUI:  https://opencollective.com/daisyui 
+  
+7:42:27 PM [vite-plugin-svelte] /src/routes/+page.svelte:39:1 A11y: visible, non-interactive elements with an on:click event must be accompanied by an on:keydown, on:keyup, or on:keypress event.
+37: 
+38: 
+39:   <form on:click={get}>
+      ^
+40:     <select value={selected} on:change={() => (answer = '')}>
+41:       {#each list as item}
+✓ 66 modules transformed.
+7:42:28 PM [vite-plugin-svelte] ssr compile done.
+package	files	 time	   avg
+my-app 	    7	0.10s	14.8ms
+rendering chunks...
+
+vite v4.4.4 building for production...
+transforming...
+7:42:29 PM [vite-plugin-svelte] /src/routes/+page.svelte:39:1 A11y: visible, non-interactive elements with an on:click event must be accompanied by an on:keydown, on:keyup, or on:keypress event.
+37: 
+38: 
+39:   <form on:click={get}>
+      ^
+40:     <select value={selected} on:change={() => (answer = '')}>
+41:       {#each list as item}
+✓ 59 modules transformed.
+7:42:29 PM [vite-plugin-svelte] dom compile done.
+package	files	 time	   avg
+my-app 	    7	0.18s	26.3ms
+rendering chunks...
+computing gzip size...
+.svelte-kit/output/client/_app/version.json                                                         0.03 kB │ gzip: 0.05 kB
+.svelte-kit/output/client/_app/immutable/assets/github.1ea8d62e.svg                                 1.75 kB │ gzip: 0.82 kB
+.svelte-kit/output/client/_app/immutable/assets/svelte-logo.87df40b8.svg                            1.89 kB │ gzip: 0.86 kB
+.svelte-kit/output/client/vite-manifest.json                                                        7.48 kB │ gzip: 1.03 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2       7.51 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2        9.10 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2          10.52 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2      11.36 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2   15.77 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2          16.28 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff             77.36 kB
+.svelte-kit/output/client/_app/immutable/assets/svelte-welcome.c18bcf5a.webp                      115.47 kB
+.svelte-kit/output/client/_app/immutable/assets/svelte-welcome.6c300099.png                       360.81 kB
+.svelte-kit/output/client/_app/immutable/assets/_page.54748784.css                                  1.51 kB │ gzip: 0.55 kB
+.svelte-kit/output/client/_app/immutable/assets/_layout.e34bb4c1.css                               40.55 kB │ gzip: 9.47 kB
+.svelte-kit/output/client/_app/immutable/entry/_page.ts.9c5eea7e.js                                 0.07 kB │ gzip: 0.08 kB
+.svelte-kit/output/client/_app/immutable/chunks/1.e302eb64.js                                       0.08 kB │ gzip: 0.10 kB
+.svelte-kit/output/client/_app/immutable/chunks/0.24cd2fe8.js                                       0.09 kB │ gzip: 0.10 kB
+.svelte-kit/output/client/_app/immutable/entry/about-page.ts.04f27f0d.js                            0.09 kB │ gzip: 0.10 kB
+.svelte-kit/output/client/_app/immutable/chunks/2.512ed812.js                                       0.14 kB │ gzip: 0.13 kB
+.svelte-kit/output/client/_app/immutable/chunks/_page.da46b06b.js                                   0.14 kB │ gzip: 0.14 kB
+.svelte-kit/output/client/_app/immutable/chunks/3.97b0f4f9.js                                       0.14 kB │ gzip: 0.13 kB
+.svelte-kit/output/client/_app/immutable/chunks/_page.57618ffe.js                                   0.16 kB │ gzip: 0.15 kB
+.svelte-kit/output/client/_app/immutable/chunks/stores.216fe036.js                                  0.24 kB │ gzip: 0.17 kB
+.svelte-kit/output/client/_app/immutable/entry/error.svelte.fa34907e.js                             0.79 kB │ gzip: 0.50 kB
+.svelte-kit/output/client/_app/immutable/entry/about-page.svelte.f611ca2f.js                        2.02 kB │ gzip: 0.96 kB
+.svelte-kit/output/client/_app/immutable/chunks/singletons.298aefac.js                              2.84 kB │ gzip: 1.43 kB
+.svelte-kit/output/client/_app/immutable/entry/_page.svelte.8c14a986.js                             2.87 kB │ gzip: 1.49 kB
+.svelte-kit/output/client/_app/immutable/entry/_layout.svelte.008db2ac.js                           4.65 kB │ gzip: 1.82 kB
+.svelte-kit/output/client/_app/immutable/entry/app.85c5d20f.js                                      6.11 kB │ gzip: 2.41 kB
+.svelte-kit/output/client/_app/immutable/chunks/index.644ca5f2.js                                   7.89 kB │ gzip: 3.19 kB
+.svelte-kit/output/client/_app/immutable/entry/start.fb3d5387.js                                   24.12 kB │ gzip: 9.61 kB
+✓ built in 865ms
+.svelte-kit/output/server/_app/immutable/assets/github.1ea8d62e.svg                                 1.75 kB
+.svelte-kit/output/server/_app/immutable/assets/svelte-logo.87df40b8.svg                            1.89 kB
+.svelte-kit/output/server/vite-manifest.json                                                        5.66 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2       7.51 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2        9.10 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2          10.52 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2      11.36 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2   15.77 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2          16.28 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff             77.36 kB
+.svelte-kit/output/server/_app/immutable/assets/svelte-welcome.c18bcf5a.webp                      115.47 kB
+.svelte-kit/output/server/_app/immutable/assets/svelte-welcome.6c300099.png                       360.81 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.54748784.css                                  1.51 kB
+.svelte-kit/output/server/_app/immutable/assets/_layout.a5f7c8d7.css                               40.80 kB
+.svelte-kit/output/server/chunks/prod-ssr.js                                                        0.04 kB
+.svelte-kit/output/server/entries/pages/_page.ts.js                                                 0.05 kB
+.svelte-kit/output/server/entries/pages/about/_page.ts.js                                           0.15 kB
+.svelte-kit/output/server/internal.js                                                               0.19 kB
+.svelte-kit/output/server/chunks/stores.js                                                          0.47 kB
+.svelte-kit/output/server/entries/fallbacks/error.svelte.js                                         0.47 kB
+.svelte-kit/output/server/entries/pages/about/_page.svelte.js                                       0.91 kB
+.svelte-kit/output/server/entries/pages/_page.svelte.js                                             1.81 kB
+.svelte-kit/output/server/chunks/index.js                                                           1.95 kB
+.svelte-kit/output/server/chunks/index2.js                                                          3.66 kB
+.svelte-kit/output/server/entries/pages/_layout.svelte.js                                           4.25 kB
+.svelte-kit/output/server/chunks/internal.js                                                        5.33 kB
+.svelte-kit/output/server/index.js                                                                 83.48 kB
+
+Run npm run preview to preview your production build locally.
+
+> Using @sveltejs/adapter-static
+  Wrote site to "build"
+  ✔ done
+✓ built in 3.46s
+[4/5] cd /home/spratt/esp/projects/wifi_config/build && /home/spratt/esp/projects/wifi_config/managed_components/joltwallet__littlefs/mklittlefs/mklittlefs -d 0 -c /home/spratt/esp/projects/wifi_config/site/build -s 0x2f0000 -p 256 -b 4096 /home/spratt/esp/projects/wifi_config/build/image.bin
+/robots.txt
+/index.html
+/_app/version.json
+/_app/immutable/chunks/_page.da46b06b.js
+/_app/immutable/chunks/0.24cd2fe8.js
+/_app/immutable/chunks/index.644ca5f2.js
+/_app/immutable/chunks/singletons.298aefac.js
+/_app/immutable/chunks/_page.57618ffe.js
+/_app/immutable/chunks/2.512ed812.js
+/_app/immutable/chunks/stores.216fe036.js
+/_app/immutable/chunks/1.e302eb64.js
+/_app/immutable/chunks/3.97b0f4f9.js
+/_app/immutable/entry/_page.ts.9c5eea7e.js
+/_app/immutable/entry/start.fb3d5387.js
+/_app/immutable/entry/about-page.ts.04f27f0d.js
+/_app/immutable/entry/_layout.svelte.008db2ac.js
+/_app/immutable/entry/error.svelte.fa34907e.js
+/_app/immutable/entry/_page.svelte.8c14a986.js
+/_app/immutable/entry/app.85c5d20f.js
+/_app/immutable/entry/about-page.svelte.f611ca2f.js
+/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2
+/_app/immutable/assets/_layout.a5f7c8d7.css
+/_app/immutable/assets/svelte-welcome.c18bcf5a.webp
+/_app/immutable/assets/svelte-welcome.6c300099.png
+/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2
+/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2
+/_app/immutable/assets/svelte-logo.87df40b8.svg
+/_app/immutable/assets/github.1ea8d62e.svg
+/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2
+/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2
+/_app/immutable/assets/_page.54748784.css
+/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff
+/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2
+/_app/immutable/assets/_layout.e34bb4c1.css
+/favicon.png
+/about.html
+[4/5] cd /home/spratt/esp/esp-idf/components/esptool_py && /home/spratt/.espressif/tools/cmake/3.24.0/bin/cmake -D IDF_PATH=/home/spratt/esp/esp-idf -D "SERIAL_TOOL=/home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python;;/home/spratt/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32s3" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/spratt/esp/projects/wifi_config/build -P /home/spratt/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool esp32s3 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x0 bootloader/bootloader.bin 0x10000 WifiConfig.bin 0x8000 partition_table/partition-table.bin 0xd000 ota_data_initial.bin 0x410000 image.bin
+esptool.py v4.6.2
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-S3 (revision v0.1)
+Features: WiFi, BLE
+Crystal is 40MHz
+MAC: 34:85:18:44:76:50
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 8MB
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00100fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Flash will be erased from 0x0000d000 to 0x0000efff...
+Flash will be erased from 0x00410000 to 0x006fffff...
+Flash params set to 0x0230
+Compressed 22928 bytes to 14514...
+Writing at 0x00000000... (100 %)
+Wrote 22928 bytes (14514 compressed) at 0x00000000 in 0.6 seconds (effective 290.7 kbit/s)...
+Hash of data verified.
+Compressed 986800 bytes to 622990...
+Writing at 0x00010000... (2 %)
+Writing at 0x0001c7d9... (5 %)
+Writing at 0x000295d2... (7 %)
+Writing at 0x0003075e... (10 %)
+Writing at 0x000366b9... (12 %)
+Writing at 0x000413a5... (15 %)
+Writing at 0x0004781f... (17 %)
+Writing at 0x0004d376... (20 %)
+Writing at 0x0005300b... (23 %)
+Writing at 0x00058811... (25 %)
+Writing at 0x0005e23a... (28 %)
+Writing at 0x00064556... (30 %)
+Writing at 0x0006a2dd... (33 %)
+Writing at 0x0006f889... (35 %)
+Writing at 0x000751da... (38 %)
+Writing at 0x0007aaf5... (41 %)
+Writing at 0x000802d9... (43 %)
+Writing at 0x00086138... (46 %)
+Writing at 0x0008bdd5... (48 %)
+Writing at 0x00090f35... (51 %)
+Writing at 0x00095f29... (53 %)
+Writing at 0x0009b075... (56 %)
+Writing at 0x000a019b... (58 %)
+Writing at 0x000a54da... (61 %)
+Writing at 0x000aa877... (64 %)
+Writing at 0x000b047b... (66 %)
+Writing at 0x000b5bac... (69 %)
+Writing at 0x000bb652... (71 %)
+Writing at 0x000c1835... (74 %)
+Writing at 0x000c7345... (76 %)
+Writing at 0x000ccb97... (79 %)
+Writing at 0x000d253f... (82 %)
+Writing at 0x000db049... (84 %)
+Writing at 0x000e30a9... (87 %)
+Writing at 0x000e985d... (89 %)
+Writing at 0x000ef359... (92 %)
+Writing at 0x000f51fe... (94 %)
+Writing at 0x000fb1c7... (97 %)
+Writing at 0x00100bb9... (100 %)
+Wrote 986800 bytes (622990 compressed) at 0x00010000 in 14.6 seconds (effective 540.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 142...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (142 compressed) at 0x00008000 in 0.0 seconds (effective 512.7 kbit/s)...
+Hash of data verified.
+Compressed 8192 bytes to 31...
+Writing at 0x0000d000... (100 %)
+Wrote 8192 bytes (31 compressed) at 0x0000d000 in 0.1 seconds (effective 749.9 kbit/s)...
+Hash of data verified.
+Compressed 3080192 bytes to 690857...
+Writing at 0x00410000... (2 %)
+Writing at 0x005b315f... (4 %)
+Writing at 0x005c5a6e... (6 %)
+Writing at 0x005d0472... (9 %)
+Writing at 0x005dc340... (11 %)
+Writing at 0x005e033b... (13 %)
+Writing at 0x005e4336... (16 %)
+Writing at 0x005e8331... (18 %)
+Writing at 0x005ec32c... (20 %)
+Writing at 0x005f0327... (23 %)
+Writing at 0x005f42e4... (25 %)
+Writing at 0x005f9440... (27 %)
+Writing at 0x005fd658... (30 %)
+Writing at 0x00601746... (32 %)
+Writing at 0x00605844... (34 %)
+Writing at 0x0060992e... (37 %)
+Writing at 0x0060da00... (39 %)
+Writing at 0x00611b0a... (41 %)
+Writing at 0x00615c51... (44 %)
+Writing at 0x00619d42... (46 %)
+Writing at 0x0061de21... (48 %)
+Writing at 0x00621f1a... (51 %)
+Writing at 0x00626001... (53 %)
+Writing at 0x0062a0e7... (55 %)
+Writing at 0x0062e1cb... (58 %)
+Writing at 0x006322c8... (60 %)
+Writing at 0x00636371... (62 %)
+Writing at 0x0063a433... (65 %)
+Writing at 0x0063e4da... (67 %)
+Writing at 0x0064259d... (69 %)
+Writing at 0x00646671... (72 %)
+Writing at 0x0064a79f... (74 %)
+Writing at 0x0064e977... (76 %)
+Writing at 0x00654a3a... (79 %)
+Writing at 0x0065addb... (81 %)
+Writing at 0x0065f108... (83 %)
+Writing at 0x00663e5c... (86 %)
+Writing at 0x00667e59... (88 %)
+Writing at 0x0066be54... (90 %)
+Writing at 0x0066fe4f... (93 %)
+Writing at 0x006740fc... (95 %)
+Writing at 0x0067aaa7... (97 %)
+Writing at 0x0068ad49... (100 %)
+Wrote 3080192 bytes (690857 compressed) at 0x00410000 in 22.7 seconds (effective 1086.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

@@ -1,0 +1,173 @@
+[1/11] Performing build step for 'bootloader'
+[1/1] cd /home/spratt/esp/projects/wifi_config/build/bootloader/esp-idf/esptool_py && /home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/spratt/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/spratt/esp/projects/wifi_config/build/bootloader/bootloader.bin
+Bootloader binary size 0x5990 bytes. 0x2670 bytes (30%) free.
+[2/9] Building C object esp-idf/settings/CMakeFiles/__idf_settings.dir/settings.c.obj
+/home/spratt/esp/projects/wifi_config/components/settings/settings.c: In function 'settings_read':
+/home/spratt/esp/projects/wifi_config/components/settings/settings.c:104:32: warning: comparison between pointer and integer
+  104 |     if(( settings.magic_number != SETTINGS_MAGIC_NUMBER )||( get_size != sizeof( settings_t ) )||( err )){
+      |                                ^~
+/home/spratt/esp/projects/wifi_config/components/settings/settings.c: In function 'settings_print':
+/home/spratt/esp/projects/wifi_config/components/settings/settings.c:136:13: warning: unused variable 'mac' [-Wunused-variable]
+  136 |     uint8_t mac[6];
+      |             ^~~
+[3/9] Linking C static library esp-idf/settings/libsettings.a
+[4/9] Generating ld/sections.ld
+[5/9] Linking CXX executable WifiConfig.elf
+[6/9] Generating binary image from built executable
+esptool.py v4.6.2
+Creating esp32s3 image...
+Merged 3 ELF sections
+Successfully created esp32s3 image.
+Generated /home/spratt/esp/projects/wifi_config/build/WifiConfig.bin
+[7/9] cd /home/spratt/esp/projects/wifi_config/build/esp-idf/esptool_py && /home/spratt/.espressif/python_env/idf5.1_py3.10_env/bin/python /home/spratt/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/spratt/esp/projects/wifi_config/build/partition_table/partition-table.bin /home/spratt/esp/projects/wifi_config/build/WifiConfig.bin
+WifiConfig.bin binary size 0xf0e30 bytes. Smallest app partition is 0x200000 bytes. 0x10f1d0 bytes (53%) free.
+[8/9] Running utility command for app
+
+> my-app@0.0.1 build
+> vite build
+
+
+vite v4.4.4 building SSR bundle for production...
+transforming...
+
+🌼 daisyUI components 2.51.5  https://daisyui.com
+  ✔︎ Including:  base, components, 29 themes, utilities
+  ❤︎ Support daisyUI:  https://opencollective.com/daisyui 
+  
+
+🌼 daisyUI components 2.51.5  https://daisyui.com
+  ✔︎ Including:  base, components, 29 themes, utilities
+  ❤︎ Support daisyUI:  https://opencollective.com/daisyui 
+  
+8:53:08 PM [vite-plugin-svelte] /src/routes/+page.svelte:41:1 A11y: visible, non-interactive elements with an on:click event must be accompanied by an on:keydown, on:keyup, or on:keypress event.
+39: 
+40: 
+41:   <form on:click={get}>
+      ^
+42:     <select value={selected} on:change={() => (answer = '')}>
+43:       {#each list as item}
+✓ 66 modules transformed.
+8:53:08 PM [vite-plugin-svelte] ssr compile done.
+package	files	  time	   avg
+my-app 	    7	75.8ms	10.8ms
+rendering chunks...
+
+vite v4.4.4 building for production...
+transforming...
+8:53:09 PM [vite-plugin-svelte] /src/routes/+page.svelte:41:1 A11y: visible, non-interactive elements with an on:click event must be accompanied by an on:keydown, on:keyup, or on:keypress event.
+39: 
+40: 
+41:   <form on:click={get}>
+      ^
+42:     <select value={selected} on:change={() => (answer = '')}>
+43:       {#each list as item}
+✓ 59 modules transformed.
+8:53:10 PM [vite-plugin-svelte] dom compile done.
+package	files	 time	   avg
+my-app 	    7	0.25s	36.3ms
+rendering chunks...
+computing gzip size...
+.svelte-kit/output/client/_app/version.json                                                         0.03 kB │ gzip: 0.05 kB
+.svelte-kit/output/client/_app/immutable/assets/github.1ea8d62e.svg                                 1.75 kB │ gzip: 0.82 kB
+.svelte-kit/output/client/_app/immutable/assets/svelte-logo.87df40b8.svg                            1.89 kB │ gzip: 0.86 kB
+.svelte-kit/output/client/vite-manifest.json                                                        7.48 kB │ gzip: 1.03 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2       7.51 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2        9.10 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2          10.52 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2      11.36 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2   15.77 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2          16.28 kB
+.svelte-kit/output/client/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff             77.36 kB
+.svelte-kit/output/client/_app/immutable/assets/svelte-welcome.c18bcf5a.webp                      115.47 kB
+.svelte-kit/output/client/_app/immutable/assets/svelte-welcome.6c300099.png                       360.81 kB
+.svelte-kit/output/client/_app/immutable/assets/_page.54748784.css                                  1.51 kB │ gzip: 0.55 kB
+.svelte-kit/output/client/_app/immutable/assets/_layout.ae12fffb.css                               39.51 kB │ gzip: 9.35 kB
+.svelte-kit/output/client/_app/immutable/entry/_page.ts.9c5eea7e.js                                 0.07 kB │ gzip: 0.08 kB
+.svelte-kit/output/client/_app/immutable/chunks/1.c7d393d9.js                                       0.08 kB │ gzip: 0.10 kB
+.svelte-kit/output/client/_app/immutable/chunks/0.78e03263.js                                       0.09 kB │ gzip: 0.10 kB
+.svelte-kit/output/client/_app/immutable/entry/about-page.ts.04f27f0d.js                            0.09 kB │ gzip: 0.10 kB
+.svelte-kit/output/client/_app/immutable/chunks/2.09473e7b.js                                       0.14 kB │ gzip: 0.13 kB
+.svelte-kit/output/client/_app/immutable/chunks/_page.da46b06b.js                                   0.14 kB │ gzip: 0.14 kB
+.svelte-kit/output/client/_app/immutable/chunks/3.d45f6a37.js                                       0.14 kB │ gzip: 0.13 kB
+.svelte-kit/output/client/_app/immutable/chunks/_page.57618ffe.js                                   0.16 kB │ gzip: 0.15 kB
+.svelte-kit/output/client/_app/immutable/chunks/stores.feeb9cb4.js                                  0.24 kB │ gzip: 0.17 kB
+.svelte-kit/output/client/_app/immutable/entry/error.svelte.26409536.js                             0.79 kB │ gzip: 0.50 kB
+.svelte-kit/output/client/_app/immutable/entry/about-page.svelte.39c62107.js                        2.02 kB │ gzip: 0.96 kB
+.svelte-kit/output/client/_app/immutable/entry/_page.svelte.2a138de7.js                             2.70 kB │ gzip: 1.41 kB
+.svelte-kit/output/client/_app/immutable/chunks/singletons.50b28b69.js                              2.84 kB │ gzip: 1.43 kB
+.svelte-kit/output/client/_app/immutable/entry/_layout.svelte.20ac7799.js                           4.65 kB │ gzip: 1.81 kB
+.svelte-kit/output/client/_app/immutable/entry/app.9ad2625a.js                                      6.11 kB │ gzip: 2.41 kB
+.svelte-kit/output/client/_app/immutable/chunks/index.fb322f49.js                                   7.85 kB │ gzip: 3.17 kB
+.svelte-kit/output/client/_app/immutable/entry/start.53f27b7d.js                                   24.12 kB │ gzip: 9.61 kB
+✓ built in 903ms
+.svelte-kit/output/server/_app/immutable/assets/github.1ea8d62e.svg                                 1.75 kB
+.svelte-kit/output/server/_app/immutable/assets/svelte-logo.87df40b8.svg                            1.89 kB
+.svelte-kit/output/server/vite-manifest.json                                                        5.66 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2       7.51 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2        9.10 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2          10.52 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2      11.36 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2   15.77 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2          16.28 kB
+.svelte-kit/output/server/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff             77.36 kB
+.svelte-kit/output/server/_app/immutable/assets/svelte-welcome.c18bcf5a.webp                      115.47 kB
+.svelte-kit/output/server/_app/immutable/assets/svelte-welcome.6c300099.png                       360.81 kB
+.svelte-kit/output/server/_app/immutable/assets/_page.54748784.css                                  1.51 kB
+.svelte-kit/output/server/_app/immutable/assets/_layout.105dee1c.css                               39.76 kB
+.svelte-kit/output/server/chunks/prod-ssr.js                                                        0.04 kB
+.svelte-kit/output/server/entries/pages/_page.ts.js                                                 0.05 kB
+.svelte-kit/output/server/entries/pages/about/_page.ts.js                                           0.15 kB
+.svelte-kit/output/server/internal.js                                                               0.19 kB
+.svelte-kit/output/server/chunks/stores.js                                                          0.47 kB
+.svelte-kit/output/server/entries/fallbacks/error.svelte.js                                         0.47 kB
+.svelte-kit/output/server/entries/pages/about/_page.svelte.js                                       0.91 kB
+.svelte-kit/output/server/entries/pages/_page.svelte.js                                             1.74 kB
+.svelte-kit/output/server/chunks/index.js                                                           1.95 kB
+.svelte-kit/output/server/chunks/index2.js                                                          3.66 kB
+.svelte-kit/output/server/entries/pages/_layout.svelte.js                                           4.25 kB
+.svelte-kit/output/server/chunks/internal.js                                                        5.33 kB
+.svelte-kit/output/server/index.js                                                                 83.48 kB
+
+Run npm run preview to preview your production build locally.
+
+> Using @sveltejs/adapter-static
+  Wrote site to "build"
+  ✔ done
+✓ built in 3.63s
+[9/9] cd /home/spratt/esp/projects/wifi_config/build && /home/spratt/esp/projects/wifi_config/managed_components/joltwallet__littlefs/mklittlefs/mklittlefs -d 0 -c /home/spratt/esp/projects/wifi_config/site/build -s 0x2f0000 -p 256 -b 4096 /home/spratt/esp/projects/wifi_config/build/image.bin
+/robots.txt
+/index.html
+/_app/version.json
+/_app/immutable/chunks/singletons.50b28b69.js
+/_app/immutable/chunks/index.fb322f49.js
+/_app/immutable/chunks/_page.da46b06b.js
+/_app/immutable/chunks/2.09473e7b.js
+/_app/immutable/chunks/0.78e03263.js
+/_app/immutable/chunks/1.c7d393d9.js
+/_app/immutable/chunks/_page.57618ffe.js
+/_app/immutable/chunks/3.d45f6a37.js
+/_app/immutable/chunks/stores.feeb9cb4.js
+/_app/immutable/entry/app.9ad2625a.js
+/_app/immutable/entry/_page.ts.9c5eea7e.js
+/_app/immutable/entry/_page.svelte.2a138de7.js
+/_app/immutable/entry/about-page.svelte.39c62107.js
+/_app/immutable/entry/about-page.ts.04f27f0d.js
+/_app/immutable/entry/_layout.svelte.20ac7799.js
+/_app/immutable/entry/start.53f27b7d.js
+/_app/immutable/entry/error.svelte.26409536.js
+/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2
+/_app/immutable/assets/svelte-welcome.c18bcf5a.webp
+/_app/immutable/assets/svelte-welcome.6c300099.png
+/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2
+/_app/immutable/assets/_layout.105dee1c.css
+/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2
+/_app/immutable/assets/_layout.ae12fffb.css
+/_app/immutable/assets/svelte-logo.87df40b8.svg
+/_app/immutable/assets/github.1ea8d62e.svg
+/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2
+/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2
+/_app/immutable/assets/_page.54748784.css
+/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff
+/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2
+/favicon.png
+/about.html

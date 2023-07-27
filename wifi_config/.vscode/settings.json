@@ -1,0 +1,7 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "files.associations": {
+        "server.h": "c",
+        "pushbtn.h": "c"
+    }
+}

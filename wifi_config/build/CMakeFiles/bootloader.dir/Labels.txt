@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/spratt/esp/projects/wifi_config/build/CMakeFiles/bootloader
+/home/spratt/esp/projects/wifi_config/build/CMakeFiles/bootloader.rule
+/home/spratt/esp/projects/wifi_config/build/CMakeFiles/bootloader-complete.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/spratt/esp/projects/wifi_config/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

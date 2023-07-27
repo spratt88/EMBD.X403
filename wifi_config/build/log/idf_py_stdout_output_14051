@@ -1,0 +1,223 @@
+[0;32mI (178) esp_image: segment 1: paddr=0003a7f4 vaddr=3fc9a800 size=04670h ( 18032) load[0m
+[0;32mI (181) esp_image: segment 2: paddr=0003ee6c vaddr=40374000 size=011ach (  4524) load[0m
+[0;32mI (184) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ab7b8h (702392) map[0m
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xb (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x3fce3818,len:0x1938
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xda8
+load:0x403cc700,len:0x3264
+SHA-256 comparison failed:
+Calculated: 9839d62979510f910c29a1ad1cfa5746a08afcbb9539e9afb936576e9989425a
+Expected: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Attempting to boot anyway...
+entry 0x403c9934
+[0;32mI (50) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (50) boot: compile time Jul 26 2023 19:41:24[0m
+[0;32mI (50) boot: Multicore bootloader[0m
+[0;32mI (53) boot: chip revision: v0.1[0m
+[0;32mI (57) qio_mode: Enabling default flash chip QIO[0m
+[0;32mI (62) boot.esp32s3: Boot SPI Speed : 40MHz[0m
+[0;32mI (67) boot.esp32s3: SPI Mode       : QIO[0m
+[0;32mI (72) boot.esp32s3: SPI Flash Size : 8MB[0m
+[0;32mI (77) boot: Enabling RNG early entropy source...[0m
+[0;32mI (82) boot: Partition Table:[0m
+[0;32mI (86) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (93) boot:  0 nvs              WiFi data        01 02 00009000 00004000[0m
+[0;32mI (100) boot:  1 otadata          OTA data         01 00 0000d000 00002000[0m
+[0;32mI (108) boot:  2 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (116) boot:  3 ota_0            OTA app          00 10 00010000 00200000[0m
+[0;32mI (123) boot:  4 ota_1            OTA app          00 11 00210000 00200000[0m
+[0;32mI (131) boot:  5 image            Unknown data     01 82 00410000 002f0000[0m
+[0;32mI (138) boot: End of partition table[0m
+[0;32mI (143) boot: No factory image, trying OTA 0[0m
+[0;32mI (147) esp_image: segment 0: paddr=00010020 vaddr=3c0b0020 size=2a7cch (174028) map[0m
+[0;32mI (178) esp_image: segment 1: paddr=0003a7f4 vaddr=3fc9a800 size=04670h ( 18032) load[0m
+[0;32mI (181) esp_image: segment 2: paddr=0003ee6c vaddr=40374000 size=011ach (  4524) load[0m
+[0;32mI (184) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=ab7b8h (702392) map[0m
+[0;32mI (280) esp_image: segment 4: paddr=000eb7e0 vaddr=403751ac size=15570h ( 87408) load[0m
+[0;32mI (295) esp_image: segment 5: paddr=00100d58 vaddr=50000000 size=000d4h (   212) load[0m
+[0;32mI (295) esp_image: segment 6: paddr=00100e34 vaddr=600fe000 size=0005ch (    92) load[0m
+[0;32mI (310) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (337) boot: Set actual ota_seq=1 in otadata[0][0m
+[0;32mI (337) boot: Disabling RNG early entropy source...[0m
+[0;32mI (348) cpu_start: Multicore app[0m
+[0;32mI (348) cpu_start: Pro cpu up.[0m
+[0;32mI (348) cpu_start: Starting app cpu, entry point is 0x403757d0[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (367) cpu_start: Pro cpu start user code[0m
+[0;32mI (367) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (367) cpu_start: Application information:[0m
+[0;32mI (370) cpu_start: Project name:     WifiConfig[0m
+[0;32mI (375) cpu_start: App version:      8BEF[0m
+[0;32mI (380) cpu_start: Compile time:     Jul 26 2023 19:41:17[0m
+[0;32mI (386) cpu_start: ELF file SHA256:  bde4a556b5501255...[0m
+[0;32mI (392) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (397) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (401) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (406) cpu_start: Chip rev:         v0.1[0m
+[0;32mI (411) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (418) heap_init: At 3FCA3530 len 000461E0 (280 KiB): DRAM[0m
+[0;32mI (424) heap_init: At 3FCE9710 len 00005724 (21 KiB): STACK/DRAM[0m
+[0;32mI (431) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (437) heap_init: At 600FE05C len 00001F94 (7 KiB): RTCRAM[0m
+[0;32mI (445) spi_flash: detected chip: gd[0m
+[0;32mI (448) spi_flash: flash io: qio[0m
+[0;32mI (452) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (459) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (477) pm: Frequency switching config: CPU_MAX: 160, APB_MAX: 80, APB_MIN: 40, Light sleep: DISABLED[0m
+[0;32mI (478) app_start: Starting scheduler on CPU0[0m
+[0;32mI (481) app_start: Starting scheduler on CPU1[0m
+[0;32mI (481) main_task: Started on CPU0[0m
+[0;32mI (491) main_task: Calling app_main()[0m
+[0;32mI (495) MAIN: Not ULP wakeup, initializing ULP[0m
+[0;32mI (500) MAIN: Power up reset, time 0s[0m
+[0;32mI (529) SETUP: reading settings from NVS[0m
+[0;32mI (532) SETUP: create default settings entries, magic 0x8bef[0m
+[0;32mI (533) SETUP: SETUP: WifiConfig version 8BEF, date Jul 26 2023[0m
+[0;32mI (536) SETUP:   Device Name: "ESP32S3_7650"[0m
+[0;32mI (541) SETUP:   SSID "pratt-wifi", Password "orange1017duck"[0m
+[0;32mI (548) SETUP:   Current time 0, [0m
+[0;32mI (552) SETUP: timezone: PST8PDT[0m
+[0;32mI (557) FS: Initializing LittelFS[0m
+[0;32mI (760) FS: Partition size: total: 3080192, used: 987136[0m
+[0;32mI (760) FS: files:[0m
+[0;32mI (760) FS: opening /[0m
+[0;32mI (778) FS: opening //_app[0m
+[0;32mI (792) FS: opening //_app/immutable[0m
+[0;32mI (809) FS: opening //_app/immutable/assets[0m
+[0;32mI (854) FS: Found _layout.a5f7c8d7.css (40804 bytes)[0m
+[0;32mI (872) FS: Found _layout.e34bb4c1.css (40552 bytes)[0m
+[0;32mI (895) FS: Found _page.54748784.css (1514 bytes)[0m
+[0;32mI (916) FS: Found fira-mono-all-400-normal.1e3b098c.woff (77364 bytes)[0m
+[0;32mI (947) FS: Found fira-mono-cyrillic-400-normal.c7d433fd.woff2 (9104 bytes)[0m
+[0;32mI (966) FS: Found fira-mono-cyrillic-ext-400-normal.3df7909e.woff2 (15772 bytes)[0m
+[0;32mI (1005) FS: Found fira-mono-greek-400-normal.a8be01ce.woff2 (10520 bytes)[0m
+[0;32mI (1030) FS: Found fira-mono-greek-ext-400-normal.9e2fe623.woff2 (7508 bytes)[0m
+[0;32mI (1056) FS: Found fira-mono-latin-400-normal.e43b3538.woff2 (16284 bytes)[0m
+[0;32mI (1088) FS: Found fira-mono-latin-ext-400-normal.6bfabd30.woff2 (11364 bytes)[0m
+[0;32mI (1116) FS: Found github.1ea8d62e.svg (1753 bytes)[0m
+[0;32mI (1145) FS: Found svelte-logo.87df40b8.svg (1892 bytes)[0m
+[0;32mI (1179) FS: Found svelte-welcome.6c300099.png (360807 bytes)[0m
+[0;32mI (1214) FS: Found svelte-welcome.c18bcf5a.webp (115470 bytes)[0m
+[0;32mI (1226) FS: opening //_app/immutable/chunks[0m
+[0;32mI (1254) FS: Found 0.e8d99dc0.js (86 bytes)[0m
+[0;32mI (1274) FS: Found 1.ddd36d15.js (84 bytes)[0m
+[0;32mI (1299) FS: Found 2.daaf5ad7.js (139 bytes)[0m
+[0;32mI (1314) FS: Found 3.97b0f4f9.js (144 bytes)[0m
+[0;32mI (1332) FS: Found _page.57618ffe.js (159 bytes)[0m
+[0;32mI (1359) FS: Found _page.da46b06b.js (140 bytes)[0m
+[0;32mI (1382) FS: Found index.644ca5f2.js (7885 bytes)[0m
+[0;32mI (1405) FS: Found singletons.bdfb4626.js (2838 bytes)[0m
+[0;32mI (1422) FS: Found stores.30be789b.js (238 bytes)[0m
+[0;32mI (1433) FS: opening //_app/immutable/entry[0m
+[0;32mI (1458) FS: Found _layout.svelte.8460cf40.js (4646 bytes)[0m
+[0;32mI (1476) FS: Found _page.svelte.692451a2.js (2877 bytes)[0m
+[0;32mI (1501) FS: Found _page.ts.9c5eea7e.js (67 bytes)[0m
+[0;32mI (1516) FS: Found about-page.svelte.f611ca2f.js (2017 bytes)[0m
+[0;32mI (1537) FS: Found about-page.ts.04f27f0d.js (88 bytes)[0m
+[0;32mI (1559) FS: Found app.26409d24.js (6114 bytes)[0m
+[0;32mI (1585) FS: Found error.svelte.3b35cec0.js (793 bytes)[0m
+[0;32mI (1607) FS: Found start.eaab5ae3.js (24123 bytes)[0m
+[0;32mI (1617) FS: Found version.json (27 bytes)[0m
+[0;32mI (1623) FS: Found about.html (42888 bytes)[0m
+[0;32mI (1630) FS: Found favicon.png (1571 bytes)[0m
+[0;32mI (1645) FS: Found index.html (45675 bytes)[0m
+[0;32mI (1660) FS: Found robots.txt (67 bytes)[0m
+[0;32mI (1661) SD: init SD card SPI mode[0m
+[0;31mE (1685) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;31mE (1685) SD: Failed to initialize the card (ESP_ERR_TIMEOUT).
+Make sure SD card lines have pull-up resistors in place.[0m
+[0;31mE (1691) FS: no SD card available[0m
+[0;32mI (1695) MAIN: running since 1s[0m
+[0;32mI (1700) pp: pp rom version: e7ae62f[0m
+[0;32mI (1704) net80211: net80211 rom version: e7ae62f[0m
+I (1710) wifi:wifi driver task: 3fcb0524, prio:23, stack:6656, core=0
+I (1725) wifi:wifi firmware version: b2f1f86
+I (1726) wifi:wifi certification version: v7.0
+I (1726) wifi:config NVS flash: enabled
+I (1726) wifi:config nano formating: disabled
+I (1731) wifi:Init data frame dynamic rx buffer num: 32
+I (1736) wifi:Init management frame dynamic rx buffer num: 32
+I (1741) wifi:Init management short buffer num: 32
+I (1745) wifi:Init dynamic tx buffer num: 32
+I (1750) wifi:Init static tx FG buffer num: 2
+I (1754) wifi:Init static rx buffer size: 1600
+I (1758) wifi:Init static rx buffer num: 10
+I (1762) wifi:Init dynamic rx buffer num: 32
+[0;32mI (1766) wifi_init: rx ba win: 6[0m
+[0;32mI (1770) wifi_init: tcpip mbox: 32[0m
+[0;32mI (1774) wifi_init: udp mbox: 6[0m
+[0;32mI (1777) wifi_init: tcp mbox: 6[0m
+[0;32mI (1781) wifi_init: tcp tx win: 5744[0m
+[0;32mI (1786) wifi_init: tcp rx win: 5744[0m
+[0;32mI (1790) wifi_init: tcp mss: 1440[0m
+[0;32mI (1794) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (1798) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (1804) phy_init: phy_version 601,fe52df4,May 10 2023,17:26:54[0m
+I (1844) wifi:mode : sta (34:85:18:44:76:50)
+I (1844) wifi:enable tsf
+[0;32mI (1845) WIFI: connecting...[0m
+I (1971) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1
+I (1972) wifi:state: init -> auth (b0)
+I (2466) wifi:state: auth -> assoc (0)
+I (2480) wifi:state: assoc -> run (10)
+I (2497) wifi:connected with pratt-wifi, aid = 27, channel 1, BW20, bssid = 40:75:c3:44:1f:68
+I (2498) wifi:security: WPA3-SAE, phy: bgn, rssi: -42
+I (2500) wifi:pm start, type: 1
+
+I (2503) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+[0;32mI (2511) WIFI: connected[0m
+I (2523) wifi:<ba-add>idx:0 (ifx:0, 40:75:c3:44:1f:68), tid:6, ssn:1, winSize:64
+I (2574) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (3517) WIFI: GOT IP[0m
+[0;32mI (3518) esp_netif_handlers: sta ip: 10.0.0.145, mask: 255.255.255.0, gw: 10.0.0.1[0m
+[0;32mI (3520) WIFI: MDNS name: ESP32S3_7650[0m
+[0;32mI (3522) SERVER: Starting HTTP Server on core 0[0m
+Wifi scan starting...
+[0;32mI (6430) SERVER: Total APs scanned = 12[0m
+[0;32mI (6431) SERVER: SSID 		pratt-wifi[0m
+[0;32mI (6431) SERVER: RSSI 		-42[0m
+[0;32mI (6432) SERVER: Channel 		1
+[0m
+[0;32mI (6435) SERVER: SSID 		[LG_Oven]733f[0m
+[0;32mI (6440) SERVER: RSSI 		-54[0m
+[0;32mI (6443) SERVER: Channel 		11
+[0m
+[0;32mI (6447) SERVER: SSID 		WDWWIFI-2.4[0m
+[0;32mI (6451) SERVER: RSSI 		-65[0m
+[0;32mI (6455) SERVER: Channel 		6
+[0m
+[0;32mI (6458) SERVER: SSID 		WDWGuest[0m
+[0;32mI (6462) SERVER: RSSI 		-65[0m
+[0;32mI (6466) SERVER: Channel 		6
+[0m
+[0;32mI (6469) SERVER: SSID 		Raven61[0m
+[0;32mI (6473) SERVER: RSSI 		-76[0m
+[0;32mI (6477) SERVER: Channel 		11
+[0m
+[0;32mI (6481) SERVER: SSID 		Patriots[0m
+[0;32mI (6485) SERVER: RSSI 		-77[0m
+[0;32mI (6488) SERVER: Channel 		11
+[0m
+[0;32mI (6492) SERVER: SSID 		The shoe[0m
+[0;32mI (6496) SERVER: RSSI 		-80[0m
+[0;32mI (6499) SERVER: Channel 		1
+[0m
+[0;32mI (6503) SERVER: SSID 		Eagle1[0m
+[0;32mI (6507) SERVER: RSSI 		-80[0m
+[0;32mI (6510) SERVER: Channel 		11
+[0m
+Wifi scan done...
+I (7391) wifi:<ba-add>idx:1 (ifx:0, 40:75:c3:44:1f:68), tid:0, ssn:1, winSize:64
+JSON Scan List:
+{
+	"scanlist":	["pratt-wifi", "[LG_Oven]733f", "WDWWIFI-2.4", "WDWGuest", "Raven61", "Patriots", "The shoe", "Eagle1", "?\\?\\?", "?", "", ""]
+}
+JSON Scan List:
+{
+	"scanlist":	["pratt-wifi", "[LG_Oven]733f", "WDWWIFI-2.4", "WDWGuest", "Raven61", "Patriots", "The shoe", "Eagle1", "?\\?\\?", "?", "", ""]
+}
