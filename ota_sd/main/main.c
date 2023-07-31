@@ -25,16 +25,39 @@ typedef struct binary_data_t {
 } binary_data_t;
 
 
-esp_err_t validate_image_header(esp_app_desc_t *incoming_ota_desc)
+esp_err_t validate_image_header(const esp_partition_t *update)
 {
+  const esp_partition_t *boot_partition = esp_ota_get_boot_partition();
   const esp_partition_t *running_partition = esp_ota_get_running_partition();
-  esp_app_desc_t running_partition_description;
-  esp_ota_get_partition_description(running_partition, &running_partition_description);
+  esp_app_desc_t running_desc;
+  esp_app_desc_t update_desc;
+  esp_err_t err;
 
-  ESP_LOGI(TAG, "current version is %s\n", running_partition_description.version);
-  ESP_LOGI(TAG, "new version is %s\n", incoming_ota_desc->version);
+  if (boot_partition != running_partition) {
+    ESP_LOGW(TAG, "Configured OTA boot partition at address 0x%08lx, but running from address 0x%08lx", 
+    boot_partition->address, running_partition->address);
+    ESP_LOGW(TAG, "(This can happen if either the OTA boot data or preferred boot image become corrupted somehow.)");
+  }
+  ESP_LOGI(TAG, "Running partition %s (address 0x%08lx) type %d subtype %d", 
+  running_partition->label, running_partition->address, running_partition->type, running_partition->subtype);
 
-  if (strcmp(running_partition_description.version, incoming_ota_desc->version) == 0)
+  if ((err = esp_ota_get_partition_description(running_partition, &running_desc)) == ESP_OK) {
+    ESP_LOGI(TAG, "Running app name %s version %s (compiled %s %s with idf %s)", 
+    running_desc.project_name, running_desc.version, running_desc.date, running_desc.time, running_desc.idf_ver);
+  } else {
+    ESP_LOGW(TAG, "Unable to query running app description");
+  }
+  ESP_LOGI(TAG, "Writing to partition %s (address 0x%08lx) type %d subtype %d", 
+  update->label, update->address, update->type, update->subtype);
+  
+  if ((err = esp_ota_get_partition_description(update, &update_desc)) == ESP_OK) {
+    ESP_LOGI(TAG, "Overwriting app name %s version %s (compiled %s%s with idf %s)", 
+    update_desc.project_name, update_desc.version, update_desc.date, update_desc.time, update_desc.idf_ver);
+  } else {
+    ESP_LOGI(TAG, "Overwriting app not valid (blank region or corrupted)");
+  }
+
+  if (strcmp(running_desc.version, update_desc.version) == 0)
   {
     ESP_LOGW(TAG, "NEW VERSION IS THE SAME AS CURRENT VERSION. ABORTING");
     return ESP_FAIL;
@@ -55,16 +78,6 @@ void try_update() {
 
     esp_err_t err = esp_ota_begin(update_partition, OTA_SIZE_UNKNOWN, &update_handle);
     ESP_LOGI(TAG, "esp_begin result = %d, handle = %ld", err, update_handle);
-
-//    esp_app_desc_t update_partition_description;
-//    if (esp_ota_get_partition_description(update_partition, &update_partition_description) != ESP_OK)
-//      ESP_LOGE(TAG, "get part descr failed");
-//    if (validate_image_header(&update_partition_description) != ESP_OK)
-//    {
-//      ESP_LOGE(TAG, "validate_image_header failed");
-//      // TODO handle failed validation
-//      return;
-//    }
 
     binary_data_t data;
     FILE *file = fopen(MOUNT_POINT"/update.bin", "rb");
@@ -88,6 +101,14 @@ void try_update() {
             break;
         }
         data.remaining_size -= BUFFER_SIZE;
+    }
+
+    if (validate_image_header(update_partition) != ESP_OK)
+    {
+      ESP_LOGE(TAG, "validate_image_header failed");
+      esp_ota_mark_app_valid_cancel_rollback();
+      esp_ota_abort(update_handle);
+      return;
     }
 
     ESP_LOGI(TAG, "Ota result = %d", err);
