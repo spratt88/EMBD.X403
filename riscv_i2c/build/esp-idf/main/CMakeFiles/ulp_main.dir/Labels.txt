@@ -1,0 +1,13 @@
+# Target labels
+ ulp_main
+# Source files and their labels
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/CMakeFiles/ulp_main
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/CMakeFiles/ulp_main.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/CMakeFiles/ulp_main-complete.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-build.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-configure.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-download.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-install.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-mkdir.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-patch.rule
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main-prefix/src/ulp_main-stamp/ulp_main-update.rule

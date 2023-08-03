@@ -1,0 +1,20 @@
+# ninja log v5
+0	90	1691025093553211024	ulp_riscv.ld	62880d42ace3ad29
+0	90	1691025093553211024	/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/ulp_riscv.ld	62880d42ace3ad29
+118	276	1691025093745307021	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj	c940a0c10c34d248
+263	304	1691025093773321023	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj	cbf7d2413fa89abf
+125	328	1691025093801335022	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj	36f6fb8582f443f4
+131	348	1691025093821345022	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj	d660bda936886697
+91	356	1691025093825347022	CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj	9f88c0d54f418ac1
+250	373	1691025093845357023	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj	a8a17e879804c358
+304	386	1691025093857363022	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj	ce870045a6e9c252
+276	495	1691025093865367022	CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj	f333e86add08d730
+495	577	1691025094049459023	ulp_main.elf	b34897a0dbcdb237
+577	633	1691025094105487023	ulp_main.bin	396465687531468c
+577	633	1691025094105487023	/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/ulp_main.bin	396465687531468c
+590	661	1691025094129499023	ulp_main.sym	7d8658099e203897
+590	661	1691025094129499023	/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/ulp_main.sym	7d8658099e203897
+661	713	1691025094177523024	ulp_main.ld	224d9dd1248eec6b
+661	713	1691025094177523024	ulp_main.h	224d9dd1248eec6b
+661	713	1691025094177523024	/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/ulp_main.ld	224d9dd1248eec6b
+661	713	1691025094177523024	/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/ulp_main.h	224d9dd1248eec6b

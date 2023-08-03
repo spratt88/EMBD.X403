@@ -1,0 +1,59 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x11f0
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xa64
+load:0x403cc700,len:0x2cc0
+entry 0x403c9894
+[0;33mW (89) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+Not a ULP-RISC V wakeup (cause = 0)
+Initializing RTC I2C ...
+[0;31mE (107) ulp_riscv_i2c: Read Failed![0m
+[0;31mE (107) ulp_riscv_i2c: RTC I2C Interrupt Raw Reg 0x12c[0m
+[0;31mE (107) ulp_riscv_i2c: RTC I2C Status Reg 0x66d00000[0m
+whoami read 0 - first try might fail
+whoami read 133 - second try
+[0;31mE (5137) ulp_riscv_i2c: Write Failed![0m
+[0;31mE (5137) ulp_riscv_i2c: RTC I2C Interrupt Raw Reg 0x10c[0m
+[0;31mE (5137) ulp_riscv_i2c: RTC I2C Status Reg 0x66080001[0m
+Guru Meditation Error: Core  0 panic'ed (LoadProhibited). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x4200c956  PS      : 0x00060530  A0      : 0x82007a44  A1      : 0x3fc98e70  
+A2      : 0x0000002f  A3      : 0x00000001  A4      : 0x00000000  A5      : 0x3fc98d60  
+A6      : 0x3fc98b60  A7      : 0x00000001  A8      : 0x08035868  A9      : 0x60008858  
+A10     : 0x0000002f  A11     : 0xffffff00  A12     : 0x00000000  A13     : 0x00000000  
+A14     : 0x00000000  A15     : 0x00000000  SAR     : 0x00000004  EXCCAUSE: 0x0000001c  
+EXCVADDR: 0x0000002f  LBEG    : 0x400556d5  LEND    : 0x400556e5  LCOUNT  : 0xfffffffc  
+
+
+Backtrace: 0x4200c953:0x3fc98e70 0x42007a41:0x3fc98e90 0x42007cb2:0x3fc98ec0 0x420196fb:0x3fc98f10 0x4037ce99:0x3fc98f40
+
+
+
+
+ELF file SHA256: 1a690d5995e8b24e
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x3 (RTC_SW_SYS_RST),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40375754
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x11f0
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xa64
+load:0x403cc700,len:0x2cc0
+entry 0x403c9894
+[0;33mW (93) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+Not a ULP-RISC V wakeup (cause = 0)
+Initializing RTC I2C ...
+[0;31mE (101) ulp_riscv_i2c: Read Failed![0m
+[0;31mE (111) ulp_riscv_i2c: RTC I2C Interrupt Raw Reg 0x13c[0m
+[0;31mE (111) ulp_riscv_i2c: RTC I2C Status Reg 0x62000010[0m
+whoami read 0 - first try might fail
+whoami read 133 - second try

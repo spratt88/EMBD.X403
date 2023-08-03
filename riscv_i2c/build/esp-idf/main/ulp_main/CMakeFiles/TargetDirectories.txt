@@ -1,0 +1,5 @@
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/CMakeFiles/ulp_main.dir
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/CMakeFiles/ld_script.dir
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/CMakeFiles/build.dir
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/CMakeFiles/edit_cache.dir
+/home/spratt/esp/projects/riscv_i2c/build/esp-idf/main/ulp_main/CMakeFiles/rebuild_cache.dir

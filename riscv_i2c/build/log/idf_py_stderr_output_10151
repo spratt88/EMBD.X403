@@ -1,0 +1,21 @@
+[0;33m--- idf_monitor on /dev/ttyACM0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x4200c956: ulp_riscv_i2c_master_write_to_device at /home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_riscv_i2c.c:426
+[0m
+[0;33m0x400556d5: strlen in ROM
+[0m
+[0;33m0x400556e5: strlen in ROM
+[0m
+[0;33m0x4200c953: ulp_riscv_i2c_master_write_to_device at /home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_riscv_i2c.c:426
+[0m
+[0;33m0x42007a41: mpu_config at /home/spratt/esp/projects/riscv_i2c/main/ulp_riscv_rtc_i2c_example_main.c:43
+[0m
+[0;33m0x42007cb2: app_main at /home/spratt/esp/projects/riscv_i2c/main/ulp_riscv_rtc_i2c_example_main.c:205
+[0m
+[0;33m0x420196fb: main_task at /home/spratt/esp/esp-idf/components/freertos/app_startup.c:208 (discriminator 15)
+[0m
+[0;33m0x4037ce99: vPortTaskWrapper at /home/spratt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x40375754: esp_restart_noos_dig at /home/spratt/esp/esp-idf/components/esp_system/port/esp_system_chip.c:57 (discriminator 1)
+[0m
+[0m

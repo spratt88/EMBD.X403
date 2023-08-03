@@ -1,0 +1,365 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+                              CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj (__divsf3)
+/home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+                              CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj (__nesf2)
+/home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+                              CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj (__gtsf2)
+/home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+                              CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj (__floatsisf)
+/home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+                              /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o) (__clzsi2)
+/home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+                              /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .text.ulp_riscv_adc_read_channel
+                0x0000000000000000       0xae CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .comment       0x0000000000000000       0x30 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .riscv.attributes
+                0x0000000000000000       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .text.ulp_riscv_lock_acquire
+                0x0000000000000000       0x16 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .text.ulp_riscv_lock_release
+                0x0000000000000000        0x6 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .comment       0x0000000000000000       0x30 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .riscv.attributes
+                0x0000000000000000       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_delay_cycles
+                0x0000000000000000       0x12 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_gpio_output_level.part.0
+                0x0000000000000000       0x1a CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_uart_init
+                0x0000000000000000       0x9a CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text.ulp_riscv_uart_putc
+                0x0000000000000000       0xa4 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .comment       0x0000000000000000       0x30 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .riscv.attributes
+                0x0000000000000000       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text.ulp_riscv_print_install
+                0x0000000000000000        0xe CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text.ulp_riscv_print_str
+                0x0000000000000000       0x34 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text.ulp_riscv_print_hex
+                0x0000000000000000       0x50 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .sbss.s_print_ctx
+                0x0000000000000000        0x8 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .comment       0x0000000000000000       0x30 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .riscv.attributes
+                0x0000000000000000       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_timer_stop
+                0x0000000000000000       0x10 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_timer_resume
+                0x0000000000000000       0x12 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .text.ulp_riscv_gpio_wakeup_clear
+                0x0000000000000000       0x12 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .data          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .bss           0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .data          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .bss           0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .data          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .bss           0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .data          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x0000000000000000 0x0000000000001000 rw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/spratt/esp/esp-idf/components/ulp/ld/esp32s3.peripherals.ld
+                [!provide]                        PROVIDE (RTCCNTL = 0x8000)
+                [!provide]                        PROVIDE (RTCIO = 0xa400)
+                0x000000000000c800                PROVIDE (SENS = 0xc800)
+                [!provide]                        PROVIDE (RTC_I2C = 0xec00)
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_adc.c.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_lock.c.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_uart.c.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_print.c.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+LOAD CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/libc_nano.a
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a
+START GROUP
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/libc_nano.a
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/libc_nano.a
+LOAD /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/../../../../riscv32-esp-elf/lib/rv32imc_zicsr_zifencei/ilp32/libnosys.a
+END GROUP
+                0x0000000000000000                . = ORIGIN (ram)
+
+.text           0x0000000000000000      0x95e
+ *start.S.obj(.text.vectors)
+ .text.vectors  0x0000000000000000       0x1e CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+                0x0000000000000000                reset_vector
+                0x0000000000000010                irq_vector
+ *(.text)
+ .text          0x000000000000001e       0x14 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .text          0x0000000000000032      0x246 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+                0x0000000000000032                __divsf3
+ .text          0x0000000000000278       0x5a /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+                0x0000000000000278                __nesf2
+                0x0000000000000278                __eqsf2
+ .text          0x00000000000002d2       0x94 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+                0x00000000000002d2                __gtsf2
+                0x00000000000002d2                __gesf2
+ .text          0x0000000000000366       0xbe /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+                0x0000000000000366                __floatsisf
+ .text          0x0000000000000424       0x3a /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+                0x0000000000000424                __clzsi2
+ *(.text*)
+ .text.mpu_config
+                0x000000000000045e       0x3c CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x000000000000045e                mpu_config
+ .text.mpu_get_acce
+                0x000000000000049a       0xba CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x000000000000049a                mpu_get_acce
+ .text.mpu_get_gyro
+                0x0000000000000554       0xba CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x0000000000000554                mpu_get_gyro
+ .text.startup.main
+                0x000000000000060e       0x5a CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x000000000000060e                main
+ .text.ulp_riscv_i2c_wait_for_interrupt.constprop.0
+                0x0000000000000668       0x32 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .text.ulp_riscv_i2c_master_set_slave_addr
+                0x000000000000069a       0x1a CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+                0x000000000000069a                ulp_riscv_i2c_master_set_slave_addr
+ .text.ulp_riscv_i2c_master_set_slave_reg_addr
+                0x00000000000006b4       0x20 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+                0x00000000000006b4                ulp_riscv_i2c_master_set_slave_reg_addr
+ .text.ulp_riscv_i2c_master_read_from_device
+                0x00000000000006d4      0x140 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+                0x00000000000006d4                ulp_riscv_i2c_master_read_from_device
+ .text.ulp_riscv_i2c_master_write_to_device
+                0x0000000000000814      0x106 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+                0x0000000000000814                ulp_riscv_i2c_master_write_to_device
+ .text.ulp_riscv_rescue_from_monitor
+                0x000000000000091a       0x14 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000000000000091a                ulp_riscv_rescue_from_monitor
+ .text.ulp_riscv_wakeup_main_processor
+                0x000000000000092e        0xc CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000000000000092e                ulp_riscv_wakeup_main_processor
+ .text.ulp_riscv_halt
+                0x000000000000093a       0x24 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+                0x000000000000093a                ulp_riscv_halt
+
+.rodata         0x0000000000000960      0x154
+ *(.rodata)
+ .rodata        0x0000000000000960       0x3c /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .rodata        0x000000000000099c      0x100 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+                0x000000000000099c                __clz_tab
+ *(.rodata*)
+ .rodata.CSWTCH.18
+                0x0000000000000a9c        0xc CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+ .rodata.CSWTCH.13
+                0x0000000000000aa8        0xc CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+
+.srodata.cst4   0x0000000000000ab4        0x8
+ .srodata.cst4  0x0000000000000ab4        0x8 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+
+.rela.dyn       0x0000000000000abc        0x0
+ .rela.text     0x0000000000000abc        0x0 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+
+.data           0x0000000000000abc        0x4
+ *(.data)
+ *(.data*)
+ *(.sdata)
+ *(.sdata*)
+ .sdata.gyrox_threshold
+                0x0000000000000abc        0x2 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x0000000000000abc                gyrox_threshold
+ .sdata.accex_threshold
+                0x0000000000000abe        0x2 CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x0000000000000abe                accex_threshold
+
+.bss            0x0000000000000ac0       0x18
+ *(.bss)
+ *(.bss*)
+ .bss.gyro      0x0000000000000ac0        0xc CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x0000000000000ac0                gyro
+ .bss.acce      0x0000000000000acc        0xc CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                0x0000000000000acc                acce
+ *(.sbss)
+ *(.sbss*)
+                0x0000000000001000                __stack_top = (ORIGIN (ram) + LENGTH (ram))
+OUTPUT(ulp_main.elf elf32-littleriscv)
+
+.comment        0x0000000000000000       0x2f
+ .comment       0x0000000000000000       0x2f CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+                                         0x30 (size before relaxing)
+ .comment       0x000000000000002f       0x30 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .comment       0x000000000000002f       0x30 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .comment       0x000000000000002f       0x30 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .comment       0x000000000000002f       0x30 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .comment       0x000000000000002f       0x30 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .comment       0x000000000000002f       0x30 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .comment       0x000000000000002f       0x30 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .comment       0x000000000000002f       0x30 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.riscv.attributes
+                0x0000000000000000       0x3b
+ .riscv.attributes
+                0x0000000000000000       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/projects/riscv_i2c/main/ulp/main.c.obj
+ .riscv.attributes
+                0x000000000000003b       0x24 CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/start.S.obj
+ .riscv.attributes
+                0x000000000000005f       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_i2c.c.obj
+ .riscv.attributes
+                0x000000000000009a       0x3b CMakeFiles/ulp_main.dir/home/spratt/esp/esp-idf/components/ulp/ulp_riscv/ulp_core/ulp_riscv_utils.c.obj
+ .riscv.attributes
+                0x00000000000000d5       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .riscv.attributes
+                0x0000000000000110       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .riscv.attributes
+                0x000000000000014b       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .riscv.attributes
+                0x0000000000000186       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .riscv.attributes
+                0x00000000000001c1       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x00000000000001fc       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_info     0x0000000000000000      0xb87
+ .debug_info    0x0000000000000000      0x360 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_info    0x0000000000000360      0x1fe /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_info    0x000000000000055e      0x1fc /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_info    0x000000000000075a      0x213 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_info    0x000000000000096d      0x142 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .debug_info    0x0000000000000aaf       0xd8 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000      0x690
+ .debug_abbrev  0x0000000000000000      0x14c /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_abbrev  0x000000000000014c      0x13e /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_abbrev  0x000000000000028a      0x15f /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_abbrev  0x00000000000003e9      0x16d /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x0000000000000556       0xca /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000000620       0x70 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_loclists
+                0x0000000000000000      0x966
+ .debug_loclists
+                0x0000000000000000      0x5e0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_loclists
+                0x00000000000005e0       0x5b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_loclists
+                0x000000000000063b       0xe1 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_loclists
+                0x000000000000071c      0x1e8 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_loclists
+                0x0000000000000904       0x62 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x0000000000000000       0xb8
+ .debug_aranges
+                0x0000000000000000       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000000000000a0       0x18 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_rnglists
+                0x0000000000000000      0x206
+ .debug_rnglists
+                0x0000000000000000       0xd0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_rnglists
+                0x00000000000000d0       0x3b /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_rnglists
+                0x000000000000010b       0x4d /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_rnglists
+                0x0000000000000158       0x86 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_rnglists
+                0x00000000000001de       0x28 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000     0x1196
+ .debug_line    0x0000000000000000      0x818 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_line    0x0000000000000818      0x21d /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_line    0x0000000000000a35      0x2f6 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_line    0x0000000000000d2b      0x361 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_line    0x000000000000108c       0xcb /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+ .debug_line    0x0000000000001157       0x3f /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000      0x3e3
+ .debug_str     0x0000000000000000      0x290 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+                                        0x2ca (size before relaxing)
+ .debug_str     0x0000000000000290       0x27 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+                                        0x193 (size before relaxing)
+ .debug_str     0x00000000000002b7       0x2c /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+                                        0x1b7 (size before relaxing)
+ .debug_str     0x00000000000002e3       0xae /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+                                        0x228 (size before relaxing)
+ .debug_str     0x0000000000000391       0x52 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+                                        0x1ad (size before relaxing)
+ .debug_str     0x00000000000003e3      0x190 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_line_str
+                0x0000000000000000      0x2ba
+ .debug_line_str
+                0x0000000000000000      0x11d /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+                                        0x1ac (size before relaxing)
+ .debug_line_str
+                0x000000000000011d       0x5f /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+                                        0x1b9 (size before relaxing)
+ .debug_line_str
+                0x000000000000017c       0x4f /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+                                        0x1b9 (size before relaxing)
+ .debug_line_str
+                0x00000000000001cb       0x5d /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+                                        0x1bf (size before relaxing)
+ .debug_line_str
+                0x0000000000000228       0x92 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)
+                                        0x1a0 (size before relaxing)
+ .debug_line_str
+                0x00000000000002ba      0x1a0 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clz.o)
+
+.debug_frame    0x0000000000000000       0xe4
+ .debug_frame   0x0000000000000000       0x4c /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(divsf3.o)
+ .debug_frame   0x000000000000004c       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(eqsf2.o)
+ .debug_frame   0x000000000000006c       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(gesf2.o)
+ .debug_frame   0x000000000000008c       0x38 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(floatsisf.o)
+ .debug_frame   0x00000000000000c4       0x20 /home/spratt/.espressif/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/../lib/gcc/riscv32-esp-elf/12.2.0/rv32imc_zicsr_zifencei/ilp32/libgcc.a(_clzsi2.o)

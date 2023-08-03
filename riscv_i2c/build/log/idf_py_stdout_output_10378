@@ -1,0 +1,46 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x11f0
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xa64
+load:0x403cc700,len:0x2cc0
+entry 0x403c9894
+[0;33mW (89) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+Not a ULP-RISC V wakeup (cause = 0)
+Initializing RTC I2C ...
+[0;31mE (107) ulp_riscv_i2c: Read Failed![0m
+[0;31mE (107) ulp_riscv_i2c: RTC I2C Interrupt Raw Reg 0x12c[0m
+[0;31mE (107) ulp_riscv_i2c: RTC I2C Status Reg 0x66d00000[0m
+whoami read 0 - first try might fail
+whoami read 133 - second try
+Getting accelerometer vals ...
+[0;31mE (5147) ulp_riscv_i2c: Read Failed![0m
+[0;31mE (5147) ulp_riscv_i2c: RTC I2C Interrupt Raw Reg 0x10c[0m
+[0;31mE (5147) ulp_riscv_i2c: RTC I2C Status Reg 0x65000010[0m
+Getting gyro vals ...
+[0;31mE (10167) ulp_riscv_i2c: Read Failed![0m
+[0;31mE (10167) ulp_riscv_i2c: RTC I2C Interrupt Raw Reg 0x10c[0m
+[0;31mE (10167) ulp_riscv_i2c: RTC I2C Status Reg 0x65000010[0m
+accex = 0.00, accey = 0.00, accez = 0.00
+gyrox = 0.00, gyroy = 0.00, gyroz = 0.00
+Entering deep sleep
+
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x5 (DSLEEP),boot:0x2b (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3818,len:0x11f0
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xa64
+load:0x403cc700,len:0x2cc0
+entry 0x403c9894
+[0;33mW (89) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+ULP RISC-V woke up the main CPU
+accex = 0.00, accey = 0.00, accez = 0.00
+gyrox = 0.00, gyroy = 0.00, gyroz = 0.00
+Entering deep sleep
+

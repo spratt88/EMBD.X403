@@ -1,0 +1,27 @@
+acce B acc c
+accex_threshold D abe 2
+__clzsi2 T 424 3a
+__clz_tab R 99c 100
+__divsf3 T 32 246
+__eqsf2 T 278 5a
+__floatsisf T 366 be
+__gesf2 T 2d2 94
+__gtsf2 T 2d2 94
+gyro B ac0 c
+gyrox_threshold D abc 2
+irq_vector T 10 
+main T 60e 5a
+mpu_config T 45e 3c
+mpu_get_acce T 49a ba
+mpu_get_gyro T 554 ba
+__nesf2 T 278 5a
+reset_vector T 0 
+SENS A c800 
+__stack_top B 1000 
+ulp_riscv_halt T 93a 24
+ulp_riscv_i2c_master_read_from_device T 6d4 140
+ulp_riscv_i2c_master_set_slave_addr T 69a 1a
+ulp_riscv_i2c_master_set_slave_reg_addr T 6b4 20
+ulp_riscv_i2c_master_write_to_device T 814 106
+ulp_riscv_rescue_from_monitor T 91a 14
+ulp_riscv_wakeup_main_processor T 92e c
