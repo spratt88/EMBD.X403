@@ -1,0 +1,18 @@
+Required routine to receive the wakeup message from the ULP:
+
+// ULP wakeup massage and crash interrupt
+void IRAM_ATTR ulp_riscv_isr( void *arg ){
+
+BaseType_t yield = 0;
+static RTC_RODATA_ATTR const char fmt_str[] = "ULP %s\n";
+SemaphoreHandle_t *sem = (SemaphoreHandle_t *)arg; // parameter
+uint32_t status = READ_PERI_REG( RTC_CNTL_INT_ST_REG );
+if( status & ULP_RISCV_SW_INT ) {
+  esp_rom_printf( fmt_str, "interrupt" );
+} else if( status & ULP_RISCV_TRAP_INT ) {
+  esp_rom_printf( fmt_str, "crash" );
+}
+xSemaphoreGiveFromISR( *sem, &yield );
+if( yield ) portYIELD_FROM_ISR();
+
+}
